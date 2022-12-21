@@ -1,0 +1,33 @@
+﻿* { /* Tick universal que todo el documento obedece por defecto */
+	font-family: Arial; /* Aqui cambiamos el tipo de letra por defecto a Arial */
+}
+a {
+	color: red; /* Aplicamos color red */
+}
+.guille {
+	color: yellow; /* Aplicamos el color amarillo */
+}
+a:link { /* cambiamos el color azul oscuro subrayado por defecto del link por otro color */
+	color: green;
+	background-color: transparent; /* decimos que el background de alrededor sea transparente */
+	text-decoration: none; /* sin decoracion de texto */
+}
+p.markdown{
+	color: red; 
+}
+div.deldiv {
+	border: 1px solid black; /* El borde sera de 1px Solido y de color negro */
+	margin: 25px; /* el margen sera de 25 pixeles */
+	background-color: lightblue; /* el color de alrededor sera azul claro dentro del div */
+}
+p.github {
+	margin: 10 px;
+	background-color: green;
+	border: 1px;
+}
+table, th, td {   /* Seleccionamos los elementos de la tabla */
+  border: 1px solid; /* Aqui pondremos "lineas" a la tabla de ejemplo para que se vea */
+}
+#identificado { /* el identificador que resumimos en el propio HTML */
+	background-color: cyan;
+}
